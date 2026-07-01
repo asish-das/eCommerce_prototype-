@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ui/dashboard.dart';
 
 class login_page extends StatefulWidget {
   const login_page({super.key});
@@ -92,7 +93,7 @@ class _login_pageState extends State<login_page> {
                 ),
             
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () {Navigator.push (context, MaterialPageRoute(builder: (context) => Dashboard()));},
                   child: Text("Sign In", style: TextStyle(color: Colors.white)),
                   style: TextButton.styleFrom(
                     backgroundColor: Colors.blueAccent,
@@ -103,7 +104,7 @@ class _login_pageState extends State<login_page> {
                   ),
                 ),
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () { },
                   child: Text("forgot password ?", style: TextStyle(color: Colors.blue, fontSize: 13)),
                  
                 ),
