@@ -30,7 +30,7 @@ class _login_pageState extends State<login_page> {
       ),
       body: Center(
         child: Container(
-          height: 600,
+          height: 60,
           width: 400,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(20),
